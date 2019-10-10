@@ -1,0 +1,33 @@
+//
+//  DDD_FriendTalkPrefixHeader.pch
+//  FriendTalk
+//
+//  Created by yn2019 on 2019/9/27.
+//  Copyright © 2019 zhxixh_pc. All rights reserved.
+//
+
+#ifndef DDD_FriendTalkPrefixHeader_pch
+#define DDD_FriendTalkPrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#ifdef __OBJC__
+
+#import <UIKit/UIKit.h>
+
+#define MAS_SHORTHAND
+#define MAS_SHORTHAND_GLOBALS
+#import <Masonry.h>
+
+#import <MJRefresh.h>
+#import <SVProgressHUD.h>
+
+#import "DDD_Basic.h"
+#import "DDD_CommonMacro.h"
+#import "DDD_Common.h"
+#import "DDD_NetworkManager.h"
+
+#endif
+
+#endif /* DDD_FriendTalkPrefixHeader_pch */

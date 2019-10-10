@@ -1,0 +1,58 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - AliRTCSdk (1.9.2):
+    - AliRTCSdk/AliRTCSdk (= 1.9.2)
+  - AliRTCSdk/AliRTCSdk (1.9.2)
+  - JSONModel (1.8.0)
+  - Masonry (1.1.0)
+  - MJRefresh (3.2.0)
+  - SDWebImage (5.0.4):
+    - SDWebImage/Core (= 5.0.4)
+  - SDWebImage/Core (5.0.4)
+  - SVProgressHUD (2.2.5)
+
+DEPENDENCIES:
+  - AFNetworking
+  - AliRTCSdk
+  - JSONModel
+  - Masonry
+  - MJRefresh
+  - SDWebImage
+  - SVProgressHUD
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - AliRTCSdk
+    - JSONModel
+    - Masonry
+    - MJRefresh
+    - SDWebImage
+    - SVProgressHUD
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  AliRTCSdk: 01fb4d861dd8a3659eb067d786cfe3279902ceaf
+  JSONModel: 02ab723958366a3fd27da57ea2af2113658762e9
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJRefresh: ed450d6eb9d3346a2cb033ab7eb6de090aeef437
+  SDWebImage: c739016e4bdf0a4a1f9a04b5e0385395ad63a282
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+
+PODFILE CHECKSUM: 448580d19cc08a4a8e4079e2b30c64830c50cd90
+
+COCOAPODS: 1.5.3
